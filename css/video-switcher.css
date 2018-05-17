@@ -1,0 +1,75 @@
+body{
+  overflow-y: hidden;
+  touch-action: none;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+video{
+  position: absolute;
+  min-height: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+video.video{
+  opacity: 0;
+}
+video.video_invisible{
+  opacity: 0;
+}
+video.start_video{
+  opacity: 100;
+}
+div.button{
+  opacity: 0;
+  z-index: 5;
+}
+div.container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+div#start_text{
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  color: #ffffff;
+  font-style: italic;
+}
+div.t_button {
+  opacity: 0;
+  z-index: 5;
+}
+div.textbox {
+  position: fixed;
+  opacity: 0;
+  z-index: 100;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-left: 10;
+  padding-right: 10;
+}
+.textbox h4{
+  font-style: italic;
+  font-size: 12;
+}
+div.textbox_seen {
+  opacity: 100;
+}

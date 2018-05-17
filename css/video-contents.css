@@ -1,0 +1,50 @@
+div#d0 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 10%;
+  top: 15%;
+}
+div#d1 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 60%;
+  top: 10%;
+}
+div#d2 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 20%;
+  top: 70%;
+}
+div#d3 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 60%;
+  top: 70%;
+}
+div#t0 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 10%;
+  top: 10%;
+}
+div#text_0 {
+  left: 80%;
+  top: 30%;
+}
+div#t1 {
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 60%;
+  top: 50%;
+}
+div#text_1 {
+  left: 20%;
+  top: 80%;
+}

@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <title>Video Switcher</title>
+  <link rel="stylesheet" type="text/css" href="css/video-switcher.css" />
+  <link rel="stylesheet" type="text/css" href="css/video-contents.css" />
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="d0" class="button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="d1" class="button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="d2" class="button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="d3" class="button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="start_text" class="s_button" ondragstart="return false">
+    <h1>rufxxx</h1>
+  </div>
+  <div id="t0" class="t_button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="text_0" class="textbox">
+    <h4>black under camera test</h4>
+  </div>
+  <div id="t1" class="t_button" ondragstart="return false" onselectstart="return false"> </div>
+  <div id="text_1" class="textbox">
+    <h4>rufxxx 2018</h4>
+  </div>
+  <div class="container">
+    <video webkit-playsinline="" playsinline="" id="vid_0" class="start_video video video_visible" loop>
+      <source src="http://220.230.120.78:18000/video-switcher/video/camera_test_1.mp4" type="video/mp4">
+    </video>
+    <video webkit-playsinline="" playsinline="" id="vid_1" class="video video_invisible" loop>
+      <source src="http://220.230.120.78:18000/video-switcher/video/camera_test_2.mp4" type="video/mp4">
+    </video>
+    <video webkit-playsinline="" playsinline="" id="vid_2" class="video video_invisible" loop>
+      <source src="http://220.230.120.78:18000/video-switcher/video/camera_test_3.mp4" type="video/mp4">
+    </video>
+    <video webkit-playsinline="" playsinline="" id="vid_3" class="video video_invisible" loop>
+      <source src="http://220.230.120.78:18000/video-switcher/video/camera_test_4.mp4" type="video/mp4">
+    </video>
+  </div>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/video_switcher.js"></script>
+  <script type="text/javascript" src="js/video_center.js"></script>
+</body>
+</html>
